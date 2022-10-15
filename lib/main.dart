@@ -1,3 +1,5 @@
+import 'package:app_lista_presentes/autenticacao/home.dart';
+import 'package:app_lista_presentes/criarPresentes/giftform.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:app_lista_presentes/autenticacao/signin.dart';
 import 'package:flutter/material.dart';
@@ -17,9 +19,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
-      home: const SignInScreen(),
+      home:  SignInScreen(),
     );
   }
-} //Main
+} //Main Convidados

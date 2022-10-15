@@ -24,8 +24,11 @@ class _SignInScreenState extends State<SignInScreen> {
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: const Text(
-          "Bem-Vindo(a)",
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          "LANCE MEGA",
+          style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              fontFamily: 'Silkscreen-Bold'),
         ),
       ),
       body: Container(
